@@ -12,7 +12,7 @@ Predict whether a breast tumour is **malignant (1)** or **benign (0)** from 30 n
 - **Preprocessing:** `StandardScaler` inside a pipeline for Logistic Regression, KNN and SVM; Decision Tree and Gaussian NB use raw features.
 
 ## c. GitHub Repository Link
-<ADD YOUR GITHUB REPO LINK HERE>
+https://github.com/Swapnil0102/bits-assignment2-statistical
 
 **Live Streamlit App:** <ADD YOUR STREAMLIT APP LINK HERE>
 
