@@ -41,12 +41,12 @@ ml_assignment2/
 
 | ML Model Name | Observation about model performance |
 |---|---|
-| Logistic Regression | <WRITE YOUR OWN OBSERVATION> |
-| Decision Tree | <WRITE YOUR OWN OBSERVATION> |
-| KNN | <WRITE YOUR OWN OBSERVATION> |
-| Naive Bayes | <WRITE YOUR OWN OBSERVATION> |
-| Support Vector Machine | <WRITE YOUR OWN OBSERVATION> |
-| **Overall winner** | <WRITE YOUR OWN CONCLUSION> |
+| Logistic Regression | Strong performance with 96.5% accuracy and the highest AUC (0.996). Only 1 false alarm and 3 missed cancers. Very little overfitting, and scaling helped the model perform well. |
+| Decision Tree | Lowest performance with 92.1% accuracy. Missed 7 cancer cases and showed more overfitting. Easy to understand, but less accurate than the other models. |
+| KNN | Good performance with 95.6% accuracy. Only 1 false alarm and 4 missed cancers. Feature scaling was important because KNN is distance-based. |
+| Naive Bayes | Achieved 100% precision, meaning no false alarms. However, it missed 7 cancer cases. Performed reasonably well despite its feature-independence assumption. |
+| Support Vector Machine | Best overall model, with 97.4% accuracy, 0.963 F1 and 0.944 MCC. No false alarms and only 3 missed cancers. The RBF kernel handled the non-linear relationship between the classes well. |
+| **Overall winner** | SVM was the best model overall because it gave the strongest and most consistent results. Logistic Regression was a close second and is easier to interpret. For cancer detection, recall is especially important because missing a cancer case can be more serious than a false alarm. |
 
 ## How to Run Locally
 ```bash
