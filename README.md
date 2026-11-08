@@ -14,7 +14,7 @@ Predict whether a breast tumour is **malignant (1)** or **benign (0)** from 30 n
 ## c. GitHub Repository Link
 https://github.com/Swapnil0102/bits-assignment2-statistical
 
-**Live Streamlit App:** <ADD YOUR STREAMLIT APP LINK HERE>
+**Live Streamlit App:** https://bits-assignment2-statisticalgit-qwcsqbmhuunnb7gfgqyjqx.streamlit.app/
 
 ### Repository structure
 ```
